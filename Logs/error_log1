@@ -1,0 +1,47 @@
+ironguard-security@0.1.0 build
+> next build
+
+   ▲ Next.js 15.1.2
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+
+Failed to compile.
+
+./src/ironguard_platform.js
+4:10  Error: 'Shield' is defined but never used.  @typescript-eslint/no-unused-vars
+4:18  Error: 'Lock' is defined but never used.  @typescript-eslint/no-unused-vars
+4:24  Error: 'FileText' is defined but never used.  @typescript-eslint/no-unused-vars
+4:34  Error: 'User' is defined but never used.  @typescript-eslint/no-unused-vars
+4:40  Error: 'Code' is defined but never used.  @typescript-eslint/no-unused-vars
+4:46  Error: 'ExternalLink' is defined but never used.  @typescript-eslint/no-unused-vars
+4:60  Error: 'Mail' is defined but never used.  @typescript-eslint/no-unused-vars
+4:66  Error: 'BookOpen' is defined but never used.  @typescript-eslint/no-unused-vars
+4:76  Error: 'Server' is defined but never used.  @typescript-eslint/no-unused-vars
+4:84  Error: 'Search' is defined but never used.  @typescript-eslint/no-unused-vars
+4:92  Error: 'Menu' is defined but never used.  @typescript-eslint/no-unused-vars
+4:98  Error: 'X' is defined but never used.  @typescript-eslint/no-unused-vars
+4:101  Error: 'Calendar' is defined but never used.  @typescript-eslint/no-unused-vars
+4:111  Error: 'Eye' is defined but never used.  @typescript-eslint/no-unused-vars
+4:116  Error: 'Clock' is defined but never used.  @typescript-eslint/no-unused-vars
+4:123  Error: 'ArrowRight' is defined but never used.  @typescript-eslint/no-unused-vars
+4:135  Error: 'Book' is defined but never used.  @typescript-eslint/no-unused-vars
+4:141  Error: 'Monitor' is defined but never used.  @typescript-eslint/no-unused-vars
+4:150  Error: 'Hash' is defined but never used.  @typescript-eslint/no-unused-vars
+5:10  Error: 'Card' is defined but never used.  @typescript-eslint/no-unused-vars
+5:16  Error: 'CardHeader' is defined but never used.  @typescript-eslint/no-unused-vars
+5:28  Error: 'CardTitle' is defined but never used.  @typescript-eslint/no-unused-vars
+5:39  Error: 'CardContent' is defined but never used.  @typescript-eslint/no-unused-vars
+6:10  Error: 'Alert' is defined but never used.  @typescript-eslint/no-unused-vars
+6:17  Error: 'AlertDescription' is defined but never used.  @typescript-eslint/no-unused-vars
+10:10  Error: 'currentBlogSeries' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+10:29  Error: 'setCurrentBlogSeries' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+11:10  Error: 'isMenuOpen' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+11:22  Error: 'setIsMenuOpen' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+12:10  Error: 'searchQuery' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+12:23  Error: 'setSearchQuery' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+61:13  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+66:13  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+71:13  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
