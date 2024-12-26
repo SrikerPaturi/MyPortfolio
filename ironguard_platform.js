@@ -1,15 +1,12 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Shield, Lock, FileText, User, Code, ExternalLink, Mail, BookOpen, Server, Search, Menu, X, Calendar, Eye, Clock, ArrowRight, Book, Monitor, Hash } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Alert, AlertDescription } from '@/components/ui/alert';
+import Image from 'next/image';
 
 const IronGuardPlatform = () => {
   const [currentPage, setCurrentPage] = useState('home');
-  const [currentBlogSeries, setCurrentBlogSeries] = useState(null);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
 
   const profile = {
     name: "Sriker Paturi",
@@ -58,17 +55,17 @@ const IronGuardPlatform = () => {
         return (
           <div className="p-4">
             <h2 className="text-3xl font-semibold text-purple-600">{blogSeries['security-saturdays'].title}</h2>
-            <img src={blogSeries['security-saturdays'].logo} alt="Security Saturdays Logo" className="w-32 mx-auto mt-4" />
+            <Image src={blogSeries['security-saturdays'].logo} alt="Security Saturdays Logo" width={128} height={128} className="w-32 mx-auto mt-4" />
             <p className="text-gray-600 mt-2">
               {blogSeries['security-saturdays'].description}
             </p>
             <h2 className="text-3xl font-semibold text-red-600 mt-8">{blogSeries['malware-mondays'].title}</h2>
-            <img src={blogSeries['malware-mondays'].logo} alt="Malware Mondays Logo" className="w-32 mx-auto mt-4" />
+            <Image src={blogSeries['malware-mondays'].logo} alt="Malware Mondays Logo" width={128} height={128} className="w-32 mx-auto mt-4" />
             <p className="text-gray-600 mt-2">
               {blogSeries['malware-mondays'].description}
             </p>
             <h2 className="text-3xl font-semibold text-green-600 mt-8">{blogSeries['threatpost-thursdays'].title}</h2>
-            <img src={blogSeries['threatpost-thursdays'].logo} alt="Threatpost Thursdays Logo" className="w-32 mx-auto mt-4" />
+            <Image src={blogSeries['threatpost-thursdays'].logo} alt="Threatpost Thursdays Logo" width={128} height={128} className="w-32 mx-auto mt-4" />
             <p className="text-gray-600 mt-2">
               {blogSeries['threatpost-thursdays'].description}
             </p>
